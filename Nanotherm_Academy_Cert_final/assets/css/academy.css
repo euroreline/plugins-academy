@@ -1,0 +1,153 @@
+/* ===============================
+   GLOBAL WRAPPER
+=================================*/
+
+.nac-wrapper {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.nac-wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #111;
+    border-bottom: 3px solid #1e73be;
+    padding-bottom: 10px;
+}
+
+/* ===============================
+   THEORY BLOCK
+=================================*/
+
+.nac-theory {
+    background: #f4f8ff;
+    padding: 30px;
+    border-left: 6px solid #1e73be;
+    border-radius: 6px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+
+.nac-theory h3,
+.nac-theory h4 {
+    margin-top: 25px;
+    color: #0d1b2a;
+}
+
+.nac-theory ul,
+.nac-theory ol {
+    padding-left: 20px;
+}
+
+.nac-theory .ntq-note {
+    margin-top: 20px;
+    padding: 15px;
+    background: #eaf7ea;
+    border-left: 4px solid #28a745;
+    border-radius: 4px;
+}
+
+/* ===============================
+   QUIZ SECTION
+=================================*/
+
+.nac-quiz {
+    margin-top: 30px;
+}
+
+.nac-question {
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #e3e6ea;
+    border-radius: 8px;
+    background: #fafafa;
+    transition: 0.3s;
+}
+
+.nac-question:hover {
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.nac-question p {
+    margin-bottom: 15px;
+}
+
+.nac-question label {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nac-question label:hover {
+    background: #eef5ff;
+}
+
+.nac-question input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* ===============================
+   BUTTON
+=================================*/
+
+.nac-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: linear-gradient(90deg,#111,#1e73be);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nac-btn:hover {
+    background: linear-gradient(90deg,#1e73be,#28a745);
+}
+
+/* ===============================
+   RESULT BOX
+=================================*/
+
+.nac-result {
+    margin-top: 40px;
+    padding: 25px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border-left: 6px solid #1e73be;
+}
+
+.nac-result h3 {
+    margin-top: 0;
+}
+
+.nac-result p {
+    font-size: 16px;
+}
+
+/* ===============================
+   PROGRESS BAR
+=================================*/
+
+.nac-progress-bar {
+    height: 12px;
+    background: #eee;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+}
+
+.nac-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg,#1e73be,#28a745);
+    transition: width 0.4s ease;
+}
